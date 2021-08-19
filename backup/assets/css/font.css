@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Avenir-Black";
+  src: url("../fonts/AvenirLTStd-Black.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/AvenirLTStd-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/AvenirLTStd-Black.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/AvenirLTStd-Black.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/AvenirLTStd-Black.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/AvenirLTStd-Black.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AvenirLTStd-Black.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-BlackOblique";
+    src: url("../fonts/AvenirLTStd-BlackOblique.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/AvenirLTStd-BlackOblique.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("../fonts/AvenirLTStd-BlackOblique.otf") format("opentype"), /* Open Type Font */
+         url("../fonts/AvenirLTStd-BlackOblique.svg") format("svg"), /* Legacy iOS */
+         url("../fonts/AvenirLTStd-BlackOblique.ttf") format("truetype"), /* Safari, Android, iOS */
+         url("../fonts/AvenirLTStd-BlackOblique.woff") format("woff"), /* Modern Browsers */
+         url("../fonts/AvenirLTStd-BlackOblique.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: url("../fonts/AvenirLTStd-Heavy.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/AvenirLTStd-Heavy.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/AvenirLTStd-Heavy.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/AvenirLTStd-Heavy.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/AvenirLTStd-Heavy.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/AvenirLTStd-Heavy.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AvenirLTStd-Heavy.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-Light";
+  src: url("../fonts/AvenirLTStd-Light.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/AvenirLTStd-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/AvenirLTStd-Light.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/AvenirLTStd-Light.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/AvenirLTStd-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/AvenirLTStd-Light.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AvenirLTStd-Light.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("../fonts/AvenirLTStd-Medium.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/AvenirLTStd-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/AvenirLTStd-Medium.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/AvenirLTStd-Medium.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/AvenirLTStd-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/AvenirLTStd-Medium.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AvenirLTStd-Medium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+  font-family: "Avenir-Roman";
+  src: url("../fonts/AvenirLTStd-Roman.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/AvenirLTStd-Roman.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/AvenirLTStd-Roman.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/AvenirLTStd-Roman.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/AvenirLTStd-Roman.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/AvenirLTStd-Roman.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AvenirLTStd-Roman.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

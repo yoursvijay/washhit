@@ -1,0 +1,280 @@
+.formBanner {
+    background: url("../images/bannerBackground.png");
+    margin-top: 100px;
+    height: calc(100vh - 100px);
+    padding-bottom: 5px;
+    overflow-y: hidden;
+}
+.form-control[readonly]{
+    background-color: #fff!important;
+}
+#bookNowBtn{
+    display: none!important;
+}
+.headerDropdown{
+    margin-left: 8px;
+}
+.formPadding {
+    padding-left: 84px !important;
+    padding-right: 82px !important;
+    padding-top: 48px;
+    padding-bottom: 60px;
+    margin-top: 10px;
+
+}
+
+.mainHeadingBooking {
+    font-family: 'Avenir-Medium';
+    font-size: 34px;
+    line-height: 46px;
+    color: #13100A;
+}
+
+.marginForm {
+    margin-bottom: 30px;
+}
+
+.datepicker.dropdown-menu {
+    width: 25%;
+
+}
+
+.datepicker.dropdown-menu .table-condensed {
+    width: 100%;
+}
+
+.bookingFooter {
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    height: 143px;
+    width: 100%;
+    box-shadow: 0 -6px 15px rgb(0, 0, 0, 0.1);
+    padding: 34px 0 29px 0;
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+}
+
+.getHelpText {
+    font-size: 22px;
+    line-height: 30px;
+    color: #5A5750;
+    font-family: 'Avenir-Medium';
+}
+
+.contactDetailsText {
+    font-size: 24px;
+    line-height: 33px;
+    color: #13100A;
+    font-family: 'Avenir-Medium';
+}
+
+.requestPickingBtn {
+    padding: 17px 0 !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1283E5 0%, #AE5CF3 100%);
+    color: #fff !important;
+    font-size: 16px !important;
+    line-height: 30px;
+    transition: background 1s linear !important;
+    animation-iteration-count: 2;
+    font-family: 'Avenir-Medium';
+    width: 100%;
+    border: 0 !important;
+    transition: all ease 0.3s;
+
+}
+.requestPickingBtn:hover{
+    box-shadow: -3px 20px 29px rgba(18, 131, 229, 0.3);
+
+}
+
+.requestPickingBtn:hover {
+    background: linear-gradient(to right, #AE5CF3 0%, #1283E5 100%);
+    transition: background 1s linear !important;
+}
+.pickUpDetails form .form-control{
+    margin-top: 0;
+}
+.marginTopInput{
+    margin-top: 20px!important;
+    margin-bottom: 0;
+}
+
+#name.valid{
+     background-image: url("../images/tickform.png");
+    background-repeat: no-repeat;
+    background-position: center right 22px;
+}
+#phonenumber.valid{
+     background-image: url("../images/tickform.png");
+    background-repeat: no-repeat;
+    background-position: center right 22px;
+}
+#email.valid{
+     background-image: url("../images/tickform.png");
+    background-repeat: no-repeat;
+    background-position: center right 22px;
+}
+.input-group {
+    position: relative;
+}
+.formLabel {
+    position: absolute;
+    top: 3px;
+    z-index: 5;
+    font-size: 14px;
+    margin: 10px;
+    padding: 6px 12px;
+    background-color: #fff;
+    color: #495057;
+    -webkit-transition: all ease-in-out .2s;
+    transition: all ease-in-out .2s;
+}
+.formLabelActive {
+    top: -25px;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+@media (min-width:1600px) {
+.pickUpDetails form .form-control:focus {
+        margin-bottom:0px!important;
+      
+    }
+}
+
+@media (max-width: 575.98px) {
+    .formBanner {
+        background: none;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .bookingFooter {
+        background: transparent;
+        height: auto;
+        box-shadow: 0 0px 0px rgb(0, 0, 0, 0);
+        padding: 0;
+    }
+    .pickUpDetails form {
+        background: url("../images/bannerBackground.png");
+    }
+    .getHelp{
+        display: none;
+    }
+    .bookingFooter .container{
+        background: #fff;
+    }
+    .marginForm {
+         margin-bottom: 0px; 
+    }
+    .pickUpDetails form .form-control {
+        margin-bottom: 20px !important;
+        font-size: 14px;
+    }
+    .marginTopInput{
+        margin-top: 0!important;
+    }
+    .marginForm .mb-5{
+        margin-bottom: 0!important;
+    }
+    .datepicker{
+        width: 93%!important;
+    }
+
+    .mainHeadingBooking {
+        font-size: 22px;
+    }
+
+    .formPadding {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-top: 48px;
+        padding-bottom: 0px;
+        margin-top: 5px;
+    }
+    .getHelpText {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .contactDetailsText {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .requestPickingBtn {
+        height: 49px;
+        font-size: 14px !important;
+        line-height: 30px;
+        width: 100vw;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 20;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .formBanner {
+        background: none;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .bookingFooter {
+        background: transparent;
+        height: auto;
+        box-shadow: 0 0px 0px rgb(0, 0, 0, 0);
+        padding: 0;
+    }
+    .requestPickingBtn {
+        height: 49px;
+        font-size: 14px !important;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .pickUpDetails form {
+        background: url("../images/bannerBackground.png");
+    }
+    .getHelp{
+        display: none;
+    }
+    .formPadding{
+        padding-bottom: 0;
+    }
+    .marginForm {
+         margin-bottom: 0px; 
+    }
+    .pickUpDetails form .form-control {
+        margin-bottom: 20px !important;
+        font-size: 14px;
+    }
+    .marginTopInput{
+        margin-top: 0!important;
+    }
+    .marginForm .mb-5{
+        margin-bottom: 0!important;
+    }
+    .datepicker{
+        width: 374px!important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .formLabel {
+        padding: 6px 0px 6px 10px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .pickUpDetails form .form-control{
+        font-size: 12px;
+    }
+    }
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .pickUpDetails form .form-control{
+        font-size: 16px;
+
+    }
+}
+

@@ -1,0 +1,35 @@
+/*
+.topHeader{
+    top: 0;
+}
+*/
+.bannerPrivacy{
+     background: linear-gradient(to right, #AE5CF3  0%, #1283E5 100%);
+    padding:66px 0;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.mainHeadingPrivacy{
+    font-size:42px;
+    line-height: 63px;
+    font-family:'Avenir-Medium';
+    color: #FFFFFF;
+}
+.privacyHeading{
+    font-size:32px;
+    line-height: 46px;
+    color: #1283E5;
+    font-family:'Avenir-Medium';
+    margin-bottom: 20px;
+    
+}
+.privacyDescription{
+     font-size:18px;
+    line-height: 35px;
+    color: #46423A;
+    margin-bottom: 80px;
+     font-family:'Avenir-Light';
+}
+.marginBottomPrivacyDescription{
+    margin-bottom: 45px;
+}

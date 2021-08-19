@@ -1,0 +1,753 @@
+@media (max-width: 575.98px) {
+    .responsiveLink{
+        display: block;
+    }
+    .headerDropdown{
+        display: none;
+    }
+    .navbar-collapse {
+        height: calc(100vh - 100px);
+        overflow-y: auto;
+        border-top: 1px solid #ccc;
+        margin-top: 30px;
+        padding: 30px 0;
+    }
+    .captionWashhIt,.navbar {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .navbar-nav {
+        display: block !important;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+    .loginBtn {
+        display: inline-block !important;
+        margin: 0;
+    }
+    .mainHeading {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .bannerMainHeadingMargin {
+        margin-bottom: 13px;
+        margin-top: 50px;
+    }
+
+
+    .seePricing {
+        font-size: 18px !important;
+        margin-right: 15px;
+    }
+
+    .TrackYourClothes {
+        display: block !important;
+        height: auto;
+        margin-left: 15px;
+        font-size: 18px !important;
+    }
+
+    .services {
+        padding: 40px 0 45px 0;
+    }
+
+    .aboutUs {
+        height: auto;
+    }
+
+    .aboutUsMainHeading {
+        font-size: 34px;
+        line-height: 45px;
+        padding: 50px 0 29px 0;
+    }
+
+    .seePricingMarginTopAbout {
+        margin-top: 20px;
+    }
+
+    .priceStarts {
+        top: -5.7%;
+    }
+
+    .priceHeading {
+        font-size: 18px;
+    }
+
+    .pricesSubHeading {
+        font-size: 14px;
+    }
+
+    .testmonials .item {
+        min-width: 100% !important;
+    }
+    .quoteTestimonialsImg{
+        top: -12%;
+    }
+
+    .testimonialsAuthor {
+        font-size: 18px;
+    }
+
+    .testimonialsAuthorOccupation {
+        font-size: 11px;
+    }
+
+    .testimonialsMain {
+        margin-left: 0;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .socialMediaSection.d-flex {
+        justify-content: center !important;
+        text-align: center;
+        padding: 15px 0 30px 0;
+    }
+
+    .copyRightSection {
+        padding: 15px 0 15px;
+    }
+
+    .copyRightSection .d-flex,
+    .copyRightSection .d-flex span {
+        display: block !important;
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+
+    .copyRightSection span:nth-last-child(2) {
+        margin: 10px 0;
+    }
+
+
+    .socialMediaSection {
+        padding: 42px 0 30px 0;
+    }
+
+
+    .testmonials {
+        padding: 30px 0 35px 0;
+    }
+
+    .custom-padding .item {
+        margin-bottom: 55px;
+    }
+
+    .owl-one {
+        padding: 0 74px;
+        margin-top: 38px;
+    }
+
+    .paddingPrice {
+        padding: 25px 0;
+    }
+
+    .paddingPriceLeft {
+        padding: 0px 0 18px 0;
+    }
+
+    .socialMediaSectionWidth {
+        width: auto;
+    }
+
+    .priceStartsImg {
+        max-width: 100%;
+    }
+
+    .ourClients img {
+        margin-bottom: 20px;
+    }
+
+    .ourClients {
+        text-align: center;
+    }
+
+    .seePricingwashItMargin {
+        margin-top: 40px;
+    }
+
+    .seePricing {
+        margin-right: 0;
+    }
+
+    .mainHeadingPricing {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 22px;
+    }
+
+    .descriptionPricing {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .tabsPricing {
+        margin-top: 30px;
+    }
+
+    .requestPickup .nav-tabs .nav-item .nav-link {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .tabsPadding {
+        padding: 22px 15px!important;
+
+    }
+
+    .tabsHeading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .mainHeadingRs {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 19px;
+    }
+
+    .tapsDescription {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .whyWashhItPaddingTop .d-md-flex button {
+        width: 100%;
+        padding: 20px;
+
+    }
+    .TrackYourClothesMarginTopAbout {
+        margin-top: 20px;
+    }
+    .pricesWashhIt {
+        margin-top: 140px;
+    }
+    .whywashhitImageBottom{
+        width: 20%;
+        margin-top: 20px;
+    }
+    .socialMediaSection {
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .responsiveLink{
+        display: block;
+    }
+    .headerDropdown{
+        display: none;
+    }
+    .loginBtn{
+        margin: 0;
+    }
+    .navbar-collapse {
+        height: calc(100vh - 100px);
+        overflow-y: auto;
+        border-top: 1px solid #ccc;
+        margin-top: 30px;
+        padding: 30px 0;
+    }
+    .navbar-nav {
+        display: block !important;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+
+    .loginBtn {
+        display: inline-block !important;
+    }
+
+    .mainHeading {
+        font-size: 28px;
+        line-height: 40px;
+
+    }
+
+    .bannerMainHeadingMargin {
+        margin-bottom: 13px;
+        margin-top: 50px;
+    }
+
+    .subHeading,
+    .description,
+    .servicesDescription {
+        line-height: 32px;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .seePricing {
+        font-size: 18px !important;
+        margin-right: 15px;
+    }
+
+    .TrackYourClothes {
+        display: block !important;
+        height: auto;
+        margin-left: 15px;
+        font-size: 18px !important;
+    }
+
+    .services {
+        padding: 40px 0 45px 0;
+    }
+
+    .aboutUs {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .aboutUsMainHeading {
+        font-size: 34px;
+        line-height: 45px;
+        padding: 50px 0 29px 0;
+    }
+
+    .seePricingMarginTopAbout {
+        margin-top: 20px;
+    }
+
+    .priceStarts {
+        top: -5.7%;
+    }
+
+    .priceHeading {
+        font-size: 18px;
+    }
+
+    .pricesSubHeading {
+        font-size: 14px;
+    }
+
+    .testimonialsAuthor {
+        font-size: 18px;
+    }
+
+    .testimonialsAuthorOccupation {
+        font-size: 14px;
+    }
+
+    .testimonialsMain {
+        margin-left: 0;
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+
+    .socialMediaSection.d-flex {
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    .copyRightSection {
+        padding: 15px 0 15px;
+    }
+
+    .copyRightSection .d-flex,
+    .copyRightSection .d-flex span {
+        display: block !important;
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    .copyRightSection span:nth-last-child(2) {
+        margin: 10px 0;
+    }
+
+
+    .socialMediaSection {
+        padding: 42px 0 30px 0;
+    }
+
+    .testmonials {
+        padding: 30px 0 35px 0;
+    }
+
+    .owl-one {
+        padding: 0 74px;
+        margin-top: 38px;
+    }
+
+    .paddingPrice {
+        padding: 25px 0;
+    }
+
+    .paddingPriceLeft {
+        padding: 0px 0 18px 0;
+    }
+
+    .socialMediaSectionWidth {
+        width: auto;
+    }
+
+    .priceStartsImg {
+        max-width: 100%;
+    }
+
+    .ourClients img {
+        margin-bottom: 20px;
+    }
+
+    .ourClients {
+        text-align: center;
+    }
+
+    .seePricingwashItMargin {
+        margin-top: 0;
+    }
+
+    .mainHeadingPricing {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 22px;
+    }
+
+    .descriptionPricing {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .tabsPricing {
+        margin-top: 30px;
+    }
+
+    .requestPickup .nav-tabs .nav-item .nav-link {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .tabsPadding {
+        padding-right: 15px !important;
+        padding-bottom: 22px;
+        padding-left: 15px !important;
+        padding-top: 22px;
+
+    }
+
+    .tabsHeading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .mainHeadingRs {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 19px;
+    }
+
+    .tapsDescription {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    
+    .testmonials .item {
+        min-width: 100% !important;
+    }
+    .quoteTestimonialsImg{
+        top: -12%;
+    }
+    .TrackYourClothesMarginTopAbout {
+        margin-top: 20px;
+    }
+    .pricesWashhIt {
+        margin-top: 140px;
+    }
+    .whywashhitImageBottom{
+        width: 20%;
+        margin-top: 20px;
+    }
+    .socialMediaSection {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .responsiveLink{
+        display: block;
+    }
+    .headerDropdown{
+        display: none;
+    }
+    .loginBtn{
+        margin: 0;
+    }
+    .navbar-collapse {
+        height: calc(100vh - 100px);
+        overflow-y: auto;
+        border-top: 1px solid #ccc;
+        margin-top: 30px;
+        padding: 30px 0;
+    }
+    .navbar-nav {
+        display: block !important;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+
+    .loginBtn {
+        display: inline-block !important;
+    }
+
+    .washingMachine {
+        position: relative;
+        top: 0%;
+        right: 0%;
+    }
+
+    .mainHeading {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .subHeading {
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    .aboutUsMainHeading {
+        padding: 41px 0 29px 0;
+    }
+
+    .aboutUs {
+        height: auto;
+    }
+
+    .priceStartsImg {
+        max-width: 100%;
+    }
+
+    .testimonialsMain {
+        width: auto;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .socialMediaSectionWidth {
+        width: auto;
+    }
+
+    .socialMediaSection.d-flex {
+        justify-content: center !important;
+        padding: 0 0 64px 0;
+    }
+
+    .copyRightSection {
+        padding: 27px 0 27px;
+        font-size: 14px;
+    }
+
+    .description {
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    .priceHeading {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .pricesSubHeading {
+        font-size: 14px;
+        line-height: 29px;
+    }
+
+    .paddingImagesPrice {
+        justify-content: center;
+    }
+
+    .aboutUs {
+        padding-bottom: 65px;
+    }
+
+    .socialMediaSection {
+        text-align: center;
+    }
+
+    .ourClients img {
+        margin-bottom: 20px;
+    }
+
+    .tabsPadding {
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+    }
+
+    .seePricingwashItMargin {
+        margin-top: 40px;
+    }
+    .testmonials .item {
+        min-width: 48% !important;
+    }
+
+    .testmonials .item:first-child,
+    .testmonials .item:nth-child(2) {
+        margin-bottom: 50px;
+    }
+    .paddingRes{
+        padding-top: 0!important;
+    }
+    .paddingPriceLeft {
+        padding: 0px 0 20px 0;
+    }
+    .pricesWashhIt {
+        margin-top: 140px;
+    }
+    .whywashhitImageBottom{
+        width: 15%;
+        margin-top: 20px;
+    }
+    .quoteTestimonialsImg{
+        top: -12%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .loginBtn{
+        margin: 0 30px;
+    }
+    .navLinkImages {
+        margin-right: 5px;
+    }
+    #headerDropdown{
+        right: -20px;
+    }
+    .washingMachine {
+        position: absolute;
+        width: 30%;
+        top: 0;
+    }
+    .ourClients img {
+        margin-bottom: 20px;
+    }
+
+    .tabsPadding {
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+    }
+
+
+    .testmonials .item {
+        min-width: 48% !important;
+    }
+
+    .testmonials .item:first-child,
+    .testmonials .item:nth-child(2) {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (max-width: 475px) {
+
+    .aboutUsMainHeading {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .custom-padding {
+        padding: 0 15px;
+        margin-top: 50px;
+    }
+
+}
+@media (max-width: 375px) {
+    .navbar-brand{
+        max-width: 70%;
+    }
+    .banner .seePricingMarginTop{
+        margin-top: 0;
+    }
+    .banner .mainHeading {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .banner .subHeading {
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .seePricing,.TrackYourClothes {
+        font-size: 16px!important;
+    }
+    .whywashhitImageBottom {
+        width: 33%;
+    }
+    .bannerMainHeadingMargin {
+         margin-top: 0px; 
+    }
+    .banner .subHeading {
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width:1600px) {
+    .container{
+        max-width: 1400px!important;
+    }
+    .washingMachine{
+        width: 22%;
+    }
+    .mainHeading,.aboutUsMainHeading{
+        font-size: 46px;
+    }
+    .subHeading{
+        max-width: 750px;
+    }
+    .subHeading,.description,.detailsHeading,.aboutUsDescription,.testimonialsAuthor,.footerDescription{
+        font-size: 22px;
+    }
+    .servicesDescription,.testmonialsDescription{
+        font-size: 18px;
+    }
+    .seePricing,.TrackYourClothes{
+        font-size: 22px!important;
+    }
+    .testimonialsAuthorOccupation,.copyRightSection{
+        font-size: 16px;
+    }
+    .paddingImagesPrice,{
+        padding: 60px;
+        justify-content: center;
+    }
+
+}
+@media (min-width:1440px){
+    .headerDropdownMain {
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1600.98px) {
+    .tabsVertical {
+        max-width: 23% !important;
+    }
+
+    .tabsPadding {
+        padding-right: 72px !important;
+        padding-left: 60px !important;
+
+    }
+
+}
+
+@media (min-width:1920px) {
+    .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        max-width: 1600px !important;
+        margin: 0 auto !important;
+    }
+    .washingMachine{
+        width: 15%;
+        right: -3%;
+    }
+}

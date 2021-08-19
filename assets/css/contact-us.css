@@ -1,0 +1,150 @@
+/*contact us*/
+html{
+    overflow-x: hidden;
+}
+.contactUsBanner{
+    padding: 66px 0px;
+    background: linear-gradient(to right,#AE5CF3 30%, #1283E5 100%);
+    margin-top: 100px;
+}
+.contactUsBanner h3{
+    font-size: 46px;
+    color: #fff;
+    font-family: 'Avenir-light';
+}
+.contactUsBody{
+    padding: 69px 0;
+}
+.locationDetails span{
+    font-family: 'Avenir-Heavy';
+    font-size: 20px;
+    color: #13100A;
+    display: block;
+    margin-bottom: 20px;
+}
+.address span{
+    font-family: 'Avenir-Medium';
+    font-size: 18px;
+    color: #312E29;
+    line-height: 35px;
+    margin-bottom: 0px;
+}
+.address{
+    margin-bottom: 50px;
+}
+.contactForm{
+    background-color: #E4E4E4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 60px 50px;
+    height: 100%;
+}
+.contactForm .form{
+    display: flex;
+    justify-content: space-between;
+}
+.width50{
+    width: 50%;
+}
+.contactForm .inpuField{
+    display: block;
+    width: 100%;
+    padding: 11px 22px;
+    font-family: 'Avenir-Medium';
+    font-size: 18px;
+    color: #13100A;
+    margin-top: 20px;
+}
+
+.contactForm textarea{
+    width: 100%;
+    padding: 18px 22px;
+    font-family: 'Avenir-Medium';
+    font-size: 22px;
+    color: #13100A;
+    margin-bottom: 20px;
+    height: 100%;
+}
+.contactForm h5{
+    font-family: 'Avenir-Heavy';
+    font-size: 24px;
+    color: #13100A;
+    display: block;
+    margin-bottom: 50px;
+    
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+@media (max-width: 576px){
+    .contactForm .form {
+        display: block;
+    }
+    .contactForm .form .ml-auto{
+        margin-right: auto!important;
+    }
+    .width50 {
+         width: 100%; 
+        margin-left: 0!important;
+    }
+    .contactForm textarea{
+        margin-top: 20px;
+    }
+    .locationResponsive{
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+    .contactForm{
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 60px 20px;
+    }
+    .contactForm .seePricing{
+        margin: 40px auto 0 auto!important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contactForm .form {
+        display: block;
+    }
+    .contactForm .form .ml-auto{
+        margin-right: auto!important;
+    }
+    .width50 {
+         width: 100%; 
+        margin-left: 0!important;
+    }
+    .contactForm textarea{
+        margin-top: 20px;
+    }
+    .contactForm .seePricing{
+        margin: 40px auto 0 auto!important;
+    }
+    .locationResponsive:first-child, .locationResponsive:nth-child(2){
+        display: inline-block;
+        width: 49%;
+    }
+    .locationResponsive{
+        text-align: center;
+    }
+    .locationResponsive:nth-child(2){
+        transform: translateY(-68px);
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .contactForm .seePricing{
+        margin: 40px auto 0 auto!important;
+    }
+    .locationResponsive:first-child, .locationResponsive:nth-child(2){
+        display: inline-block;
+        width: 49%;
+    }
+    .locationResponsive{
+        text-align: center;
+    }
+    .locationResponsive:nth-child(2){
+        transform: translateY(-34px);
+    }
+}
+/*contact us end*/

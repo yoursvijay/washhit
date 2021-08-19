@@ -1,0 +1,368 @@
+
+body{
+    background: #F7F7F7!important;
+}
+.pricingHeader{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.bannerPricing {
+    margin-top: 100px;
+    background: url("../images/bannerBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+     padding: 41px 0 21px 0;
+}
+.pricing{
+max-width: 816px!important;
+}
+.offers{
+    max-width: 468px!important;
+}
+.mainHeadingPricing{
+    font-size: 22px;
+    font-family: 'Avenir-Medium';
+    margin-bottom: 20px;
+    letter-spacing: 0;
+}
+.pricingFontBold{
+     font-family: 'Avenir-Heavy';
+}
+.descriptionPricing{
+    font-size: 18px;
+    color: #33312D;
+    font-family: 'Avenir-Medium';
+    letter-spacing: 0;
+}
+.offers{
+   background: linear-gradient(to right, #1283E5 0%, #AE5CF3 100%);
+    padding: 35px 030px 29px;
+    position: relative;
+}
+.descriptionOffers{
+    font-size:19px;
+    
+}
+.requestPickup{
+    padding-bottom: 100px!important;
+}
+.tabsVertical .nav-tabs .nav-item{
+    border-bottom: 1px solid #EAEAEA;
+   height: 72px;
+    display: flex;
+    align-items: center;
+    
+}
+.tabsVertical .nav-tabs .nav-item .nav-link{
+     
+    color:#13100A;
+    font-family: 'Avenir-Medium';
+    font-size: 22px;
+    line-height: 33px;
+    width: 100%;
+    border: 0;
+    height: 100%;
+    border-radius: 0!important;
+    display: flex;
+    align-items: center;
+}
+.tabsVertical .nav-tabs .nav-item .nav-link.active{
+    background: #1283E5;
+    color: #FFFFFF;
+    position: relative;
+}
+.tabsVertical .nav-tabs .nav-item .nav-link.active::after{
+    content: '';
+    position: absolute;
+    right: -15px;
+    border-top: 19px solid transparent;
+    border-left: 15px solid #1283E5;
+    border-bottom: 19px solid transparent;
+}
+.tabsHeading{
+    color:#13100A!important;
+    font-family: 'Avenir-Heavy';
+    font-size: 22px;
+    line-height: 33px;
+    
+}
+.mainHeadingRs{
+   font-family: 'Avenir-Black';
+    font-size: 28px;
+    line-height: 49px; 
+    margin-bottom: 12px;
+}
+.tabsVertical{
+    margin-right: 15px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    padding-right: 10px!important;
+    padding-left: 10px!important;
+}
+.tabsPricing{
+/*     background: #FFFFFF;*/
+     border: 1px solid #EAEAEA;
+}
+.tabsPadding{
+    padding-right: 154px !important;
+    padding-bottom: 50px;
+    padding-left: 60px !important;
+    padding-top: 50px;
+    border-right: 1px solid #EAEAEA;
+    border-bottom:  1px solid #EAEAEA;
+}
+.requestPickupBtn{
+    margin-top: 68px !important;
+    margin-bottom: 74px !important;
+    
+}
+.tapsDescription{
+    font-size:18px;
+    color: #46423A;
+     line-height: 30px; 
+     font-family: 'Avenir-Medium';
+}
+.category{
+    width: 320px;
+    height: 34px;
+    background: #F3F3F3;
+    font-size: 16px;
+    line-height: 22px;
+   font-family: 'Avenir-Medium';
+    border-radius: 17px;
+    align-items: center;
+    justify-content: space-between;
+   margin-bottom:25px!important;
+    border-bottom: 0!important;
+}
+.firstTabRow{
+   padding:34px 0 0 0;
+    margin: 0;
+    background: #FFFFFF;
+    margin-bottom: 38px;
+}
+.category .nav-item{
+    height: 100%;
+  
+}
+.category .nav-link{
+padding: 0 15px;
+    height: 100%;
+      display: flex;
+    align-items: center;
+     color: #13100A;
+   
+}
+.category .nav-link.active,.category .nav-link:focus,.category .nav-link:hover{
+    background: linear-gradient(to right, #1283E5 0%, #AE5CF3 100%);
+    border-radius: 17px;
+    color: #FFFFFF!important;
+    box-shadow: -3px 3px 29px rgba(18, 131, 229, 0.3);
+    border-color: transparent!important;
+
+}
+.categoryTwo{
+     font-size: 18px;
+    line-height: 25px;
+   font-family: 'Avenir-Medium';
+   
+      border-bottom: 0!important;
+}
+.categoryTwo .nav-item{
+    
+    margin-right: 40px;
+}
+.categoryTwo .nav-link{
+    color: #13100A!important;
+    height: 100%;
+    padding: 0;
+     padding-bottom: 17px!important;
+    
+    border: 0!important;
+    }
+.categoryTwo .nav-link:hover{
+    border: 0;
+}
+.categoryTwo .nav-link.active,.categoryTwo .nav-link:hover{
+    position: relative;
+    border: 0!important;
+    background: transparent!important;
+    color:#1283E5!important;
+}
+
+.categoryTwo .nav-link.active:after{
+    content: '';
+    bottom: 0;
+    border-right: 19px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-top: 18px solid #1283E5;
+    transform: translate(-50%,100%);
+    position: absolute;
+    left: 50%;
+}
+.itemPadding{
+    padding-right: 24px;
+    padding-left: 19px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    display: flex;
+    
+    
+}
+.itemPadding img{
+    margin-right: 26px;
+}
+.itemsAll{
+   margin-bottom: 15px;
+}
+.itemColumnOne{
+     border-right: 1px dashed #EAEAEA;
+}
+#myTabContentThree .mainHeadingRs{
+    font-size: 30px!important;
+}
+.itemsAll:last-child{
+    margin-bottom: 0!important;
+}
+/*responsive*/
+@media (max-width: 575.98px) {
+    .category{
+    width: auto;
+    height: auto;
+        display: block!important;
+    }
+    .tabsVertical{
+        margin-bottom: 20px;
+    }
+    .category .nav-item{
+        margin-bottom: 20px!important;
+     
+    }
+    #myTabContentTwo{
+        width: 100%;
+    }
+    .categoryTwo {
+        width: 100%;
+    }
+    .categoryTwo .nav-item{
+           margin-right: 0;
+        width: 100%;
+    }
+    .categoryTwo .nav-item .nav-link{
+        text-align: center;
+    }
+    .categoryTwo{
+        display: block!important;
+    }
+    .categoryTwo .nav-link.active:after{
+        border-top: 18px solid transparent;
+    }
+    #myTabContentThree .mainHeadingRs{
+        text-align: center;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .itemPadding{
+    display: block;
+        text-align: center;
+    }
+    .itemPadding img{
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .nav-tabs.d-block{
+        display: flex!important;
+    }
+    .card-header-tabs{
+        margin-bottom: 0!important;
+    }
+    .tabsVertical .nav-tabs .nav-item .nav-link.active::after {
+        bottom: -26px;
+        right: 45%;
+        transform: rotate(90deg);
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-tabs.d-block{
+        display: flex!important;
+        justify-content: space-between;
+    }
+    .card-header-tabs{
+        margin-bottom: 0!important;
+    }
+    .tabsVertical .nav-tabs .nav-item .nav-link.active::after {
+        bottom: -26px;
+        right: 45%;
+        transform: rotate(90deg);
+    }
+    .categoryTwo .nav-link.active:after {
+        border-top: 18px solid transparent;
+    }
+    .category {
+        width: auto;
+    }
+    .categoryTwo{
+        justify-content: center!important;
+    }
+    #myTabContentThree .tabsHeading,#myTabContentThree .tapsDescription{
+        padding-left: 10px;
+        display: block;
+    }
+    #myTabContentThree .mainHeadingRs {
+        padding-left: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #myTabContentThree .mainHeadingRs{
+        text-align: center;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .itemPadding{
+    display: block;
+        text-align: center;
+    }
+    .itemPadding img{
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .categoryTwo .nav-link.active:after{
+        border-top: 18px solid transparent;
+    }
+    .categoryTwo{
+        justify-content: center!important;
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #myTabContentThree .tabsHeading,#myTabContentThree .tapsDescription{
+        padding-left: 10px;
+        display: block;
+    }
+    #myTabContentThree .mainHeadingRs{
+        font-size: 23px!important;
+    }
+    .categoryTwo{
+        justify-content: center!important;
+    }
+}
+@media (max-width: 425.98px){
+/*
+    .requestPickup .nav-tabs .nav-item .nav-link {
+        font-size: 16px!important;
+        padding: 0 9px;
+    }
+*/
+    .tabsVertical .nav-tabs .nav-item {
+        height: 55px;
+    }
+    .tabsVertical .nav-tabs .nav-item .nav-link.active::after {
+        right: 42%;
+    }
+    
+}
+/*responsive*/
+
